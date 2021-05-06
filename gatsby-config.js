@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Musings by Wilson`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Wilson Hou`,
+      summary: `who is a tech enthusiast and developer based in Sydney.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A blog exploring all things tech (from web development to crypto to vim tips) from an indie hacker point of view`,
+    siteUrl: `https://wilsonhou.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `itswilsonhou`,
     },
   },
   plugins: [
@@ -112,8 +112,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Musings by Wilson`,
+        short_name: `MusingsBW`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
